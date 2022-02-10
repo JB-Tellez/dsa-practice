@@ -1,5 +1,5 @@
 def min_stack(stack):
-    
+
     mine = stack.pop()
 
     if not stack:
@@ -8,4 +8,3 @@ def min_stack(stack):
     further = min_stack(stack)
 
     return mine if mine < further else further
-
